@@ -38,6 +38,9 @@ int main()
         }
         printf("%.1f", (float)a / b);
         break;
+    default:
+        printf("Wrong operator");
+        break;
     }
     return 0;
 }
